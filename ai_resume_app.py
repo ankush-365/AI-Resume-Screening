@@ -20,12 +20,8 @@ st.title("🤖 AI Resume Screening & Feedback System")
 # ---------------------------
 # SIDEBAR - API KEY INPUT
 # ---------------------------
-st.sidebar.header("🔐 Configuration")
 
-groq_api_key = st.sidebar.text_input(
-    "Enter Groq API Key",
-    type="password"
-)
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # ---------------------------
 # MAIN INPUTS

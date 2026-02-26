@@ -12,27 +12,15 @@ An AI-powered Resume Screening System that evaluates candidate resumes against a
 
 ## 🚀 Live Demo
 
-🔗 [Streamlit App Link Here]
-
----
-
-## 🧠 Problem Statement
-
-Recruiters often receive hundreds of resumes for a single job posting.
-
-Manually screening resumes:
-- Takes significant time
-- Is prone to bias
-- May overlook strong candidates
-
-This project automates the initial screening process using AI.
+Want to know if your resume is correctly fitted for the description: Try it now
+https://ai-resume-screening-insights.streamlit.app/
 
 ---
 
 ## ⚙️ How It Works
 
-### 1️⃣ Resume Upload
-User uploads a PDF resume.
+### 1️⃣ Resume Upload and Job Description as Input
+User uploads a PDF resume and gives a job description.
 
 ### 2️⃣ Text Extraction
 PDF content is extracted using `pdfplumber`.

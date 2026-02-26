@@ -3,6 +3,7 @@ python-dotenv
 langchain_community
 pandas
 pypdf
+pdfplumber
 langchain-text-splitters
 sentence_transformers
 langchain_huggingface
@@ -11,4 +12,5 @@ langchain_chroma
 langchain-core
 streamlit
 langchain_groq
+
 
